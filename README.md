@@ -16,13 +16,10 @@ This is a full-stack web application that mimics the functionality of a chat app
 - [Node.js](https://nodejs.org/) (which includes npm)
 - [PostgreSQL](https://www.postgresql.org/download/)
 
-## How to run 
+## How to Installation
 
-- **To run**:
-  1. Install PostgreSQL and create database `ai-chat`.
+-  Install PostgreSQL and create database `ai-chat`.
 
-  step 1:
-   git clone https://github.com/prathwink2002/AI-Chat.git
     	 
 ## Installation
 
@@ -36,8 +33,8 @@ To do so:-
 ```
   git clone https://github.com/prathwink2002/AI-Chat.git
 ```
-
-`STEP 2` - :
+----
+`STEP 2` - 
 ```
     cd server
 ```
@@ -55,6 +52,22 @@ To do so:-
 ---
 `STEP 5` - open new terminal
 
+---
+`STEP 6` - 
+```
+    cd client
+```
+----
+`STEP 7` - Installing all the Dependancies :
+
+```
+   npm install
+```
+---
+`STEP 8` - Run frontend
+```
+    npm start
+```
 ---
 
 **Notes**
