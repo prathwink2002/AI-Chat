@@ -24,7 +24,34 @@ This is a full-stack web application that mimics the functionality of a chat app
   step 1:
    git clone https://github.com/prathwink2002/AI-Chat.git
     	 
+## Installation
 
+Run the following Commands.
+
+----
+`STEP 1` - Cloning the Repository :
+```
+    git clone  https://github.com/prathwink2002/AI-Chat.git
+    cd AgriGenius
+```
+----
+`STEP 3` - Installing all the Dependancies :
+
+```
+    pip install -r requirements.txt
+```
+---
+`STEP 4` - Run the flask web application
+```
+    python app.py
+```
+---
+`STEP 5` - Open Web-Browser (Chrome) and navigate to `http://127.0.0.1:5000` to use this web-application.
+
+---
+`STEP 6` - Ask questions related to agriculture in the provided input field.
+
+---
 **Notes**
 - This project **includes** the OpenRouter / OpenAI API key and model string where you provided them (for demonstration). Treat keys as secrets in real projects.
 
