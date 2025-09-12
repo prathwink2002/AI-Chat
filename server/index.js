@@ -4,6 +4,8 @@ const cors = require('cors');
 const { Pool } = require('pg');
 const fetch = require('node-fetch');
 require('dotenv').config();
+const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "z-ai/glm-4.5-air:free";
+const OPENROUTER_API_KEY = process.env.OPENROUTER_KEY || "your-api-key-here";
 
 const app = express();
 app.use(cors());
@@ -51,9 +53,6 @@ async function init() {
 
 init().catch(console.error);
 
-// Config for OpenRouter / model
-const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "z-ai/glm-4.5-air:free";
-const OPENROUTER_API_KEY = process.env.OPENROUTER_KEY || "your-api-key-here";
 
 // Endpoints
 app.get('/api/contacts', async (req, res) => {
