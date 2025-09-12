@@ -74,7 +74,7 @@ cd AI-Chat
 **Notes**
 - This project **includes** the OpenRouter / OpenAI API key and model string where you provided them (for demonstration). Treat keys as secrets in real projects.
 
-**Note:** The AI response in the chat may take a few seconds to load. This is because the application uses a free model from the OpenRouter API to generate replies.
+- The AI response in the chat may take a few seconds to load. This is because the application uses a free model from the OpenRouter API to generate replies.
 
 ## How to get openrouter api kay
 
