@@ -29,7 +29,7 @@ open code editor terminal (eg: vs-code)
 
 
 `STEP 1` - Cloning the Repository :
-To do so:-
+
 ```
   git clone https://github.com/prathwink2002/AI-Chat.git
 ```
