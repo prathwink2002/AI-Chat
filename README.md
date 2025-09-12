@@ -74,31 +74,25 @@ The application follows a classic client-server architecture:
 ## Technologies & Dependencies
 
 ## rontend (Client-side)
-**Framework/Library**: React.js: The core library for building the user interface. (App.js, index.js) 
-**Language**: JavaScript (ES6+): Used for all the client-side logic, including async/await for API calls.
-**Styling**: CSS: For styling the application components. (styles.css)
-**Dependencies/Libraries**:`react-dom`: To render the React components into the DOM. (index.js)
-`react-icons`: Used for including icons like FaCommentDots, FaSearch, etc., in the UI. (App.js)
+- **Framework/Library**: React.js: The core library for building the user interface. (App.js, index.js) 
+- **Language**: JavaScript (ES6+): Used for all the client-side logic, including async/await for API calls.
+- **Styling**: CSS: For styling the application components. (styles.css)
+- **Dependencies/Libraries**:`react-dom`: To render the React components into the DOM. (index.js)
+- `react-icons`: Used for including icons like FaCommentDots, FaSearch, etc., in the UI. (App.js)
 
 ## Backend (Server-side)
 **Environment**:
-**Node.js**: The JavaScript runtime environment for the server.
-**Framework**: Express.js: A web application framework for Node.js used to build the REST API. (server/index.js)
-**Database**: PostgreSQL: The relational database used to store contacts and messages. The server uses the pg library to connect to it. (server/index.js)
-**Language**: JavaScript (Node.js): Used for all server-side logic.
-**Dependencies/Libraries**:
-`express`: The main web server framework.
-`cors`: Express middleware to enable Cross-Origin Resource Sharing (CORS).
-`body-parser`: Express middleware to parse incoming request bodies (e.g., JSON).
-`pg`: The Node.js client for PostgreSQL.
-`dotenv`: To load environment variables from a .env file (like API keys and database credentials).
-`node-fetch`: To make HTTP requests from the server to the OpenRouter AI API.
+- **Node.js**: The JavaScript runtime environment for the server.
+- **Framework**: Express.js: A web application framework for Node.js used to build the REST API. (server/index.js)
+- **Database**: PostgreSQL: The relational database used to store contacts and messages. The server uses the pg library to connect to it. (server/index.js)
+- **Language**: JavaScript (Node.js): Used for all server-side logic.
+- **Dependencies/Libraries**:
+- `express`: The main web server framework.
+- `cors`: Express middleware to enable Cross-Origin Resource Sharing (CORS).
+- `body-parser`: Express middleware to parse incoming request bodies (e.g., JSON).
+- `pg`: The Node.js client for PostgreSQL.
+- `dotenv`: To load environment variables from a .env file (like API keys and database credentials).
+- `node-fetch`: To make HTTP requests from the server to the OpenRouter AI API.
 
 
 
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (which includes npm)
-- [PostgreSQL](https://www.postgresql.org/download/)
