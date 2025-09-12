@@ -32,6 +32,7 @@ open code editor terminal (eg: vs-code)
 
 ```
   git clone https://github.com/prathwink2002/AI-Chat.git
+cd AI-Chat
 ```
 ----
 `STEP 2` - 
