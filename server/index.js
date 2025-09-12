@@ -53,7 +53,7 @@ init().catch(console.error);
 
 // Config for OpenRouter / model
 const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "z-ai/glm-4.5-air:free";
-const OPENROUTER_API_KEY = process.env.OPENROUTER_KEY || "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";
+const OPENROUTER_API_KEY = process.env.OPENROUTER_KEY || "your-api-key-here";
 
 // Endpoints
 app.get('/api/contacts', async (req, res) => {
