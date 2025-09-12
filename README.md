@@ -20,8 +20,10 @@ This is a full-stack web application that mimics the functionality of a chat app
 
 - **To run**:
   1. Install PostgreSQL and create database `ai-chat`.
-  2. open terminal then `cd server` then `npm install` then `node index.js` or `npm start`
-  3. open new terminal then ` cd client` then `npm install` then `npm start`
+
+  step 1:
+   git clone https://github.com/prathwink2002/AI-Chat.git
+    	 
 
 **Notes**
 - This project **includes** the OpenRouter / OpenAI API key and model string where you provided them (for demonstration). Treat keys as secrets in real projects.
