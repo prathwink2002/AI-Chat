@@ -110,13 +110,6 @@ The project is organized into a `client` directory for the frontend application 
 ## Overview
 Simple WhatsApp-like UI (Chat / Contacts) with Express backend, PostgreSQL storage, and auto-reply using OpenRouter model.
 
-**Database**
-- name: ai-chat
-- user: postgres (adjust if needed)
-- password: root
-
-
-
 ## Architecture
 
 The application follows a classic client-server architecture:
