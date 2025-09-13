@@ -82,6 +82,8 @@ cd AI-Chat
 
  **change `server/index.js` file**
 - const OPENROUTER_API_KEY = process.env.OPENROUTER_KEY || "your-api-key-here";
+
+  **Notes** -After changing `your-api-key-here` restart Backend (Server)
   
 **Notes**
 - This project **includes** the OpenRouter / OpenAI API key and model string where you provided them (for demonstration). Treat keys as secrets in real projects.
