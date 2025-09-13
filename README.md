@@ -71,6 +71,18 @@ cd AI-Chat
 ```
 ---
 
+** change `.env` file**
+- DB_USER=your PostgreSQL username (default: `Postgres`)
+- DB_HOST=localhost
+- DB_NAME=your database name( eg : `ai-chat`)
+- DB_PASSWORD=your PostgreSQL password
+- DB_PORT=5432
+- OPENROUTER_KEY=your_openrouter_key_here
+- OPENROUTER_MODEL=z-ai/glm-4.5-air:free(you can change with any openrouter_ai model)
+
+**change `server/index.js` file **
+- const OPENROUTER_API_KEY = process.env.OPENROUTER_KEY || "your-api-key-here";
+  
 **Notes**
 - This project **includes** the OpenRouter / OpenAI API key and model string where you provided them (for demonstration). Treat keys as secrets in real projects.
 
