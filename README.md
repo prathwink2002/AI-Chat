@@ -126,7 +126,7 @@ The application follows a classic client-server architecture:
 
 ## Technologies & Dependencies
 
-## rontend (Client-side)
+## Frontend (Client-side)
 - **Framework/Library**: React.js: The core library for building the user interface. (App.js, index.js) 
 - **Language**: JavaScript (ES6+): Used for all the client-side logic, including async/await for API calls.
 - **Styling**: CSS: For styling the application components. (styles.css)
